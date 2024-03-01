@@ -100,7 +100,7 @@ music:
 # Whether to display the musics.
 # 单独的音乐页面.
 musics:
-  enable: false
+  enable: true
   title:          #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -160,11 +160,11 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/restlessnight
+  email: 812138225@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
+  qq: 812138225
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
@@ -191,7 +191,7 @@ reward:
   enable: true
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  alipay: /medias/reward/alipay.png
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -408,7 +408,7 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/restlessnight
   title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
@@ -448,8 +448,8 @@ googleAnalytics:
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: ce7122ac14d1b2c350a499493a378e5f
 
 # 百度搜索资源平台提交链接
 baiduPush: true
@@ -622,7 +622,7 @@ addthis:
 
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
-subtitle:
+subtitle: 
   enable: true
   loop: true # 是否循环
   showCursor: true # 是否显示光标
